@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Variable overrides first
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
+@font-face {
+    font-family: HackerFont;
+    src: url(assets/fonts/HackerFont.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: Robot;
+    src: url(assets/fonts/Robot_Font.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
